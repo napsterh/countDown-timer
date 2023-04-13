@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./dog.jpeg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0rem 0rem 0rem -60rem ;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: rgb(185, 31, 206);
+    margin-bottom: 0rem;
+}
+
+.countDown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countDown-el{
+    text-align: center;
+}
+
+#daysL, #daysV{
+    color: rgb(0, 89, 255);
+}
+
+#hoursL, #hoursV{
+    color: rgb(59, 137, 49);
+}
+
+#minsL, #minsV{
+    color: rgb(255, 0, 0);
+}
+
+#secsL, #secsV{
+    color: rgb(162, 0, 255);
+}
+
+.countDown-el span{
+    font-size: 1.8rem;
+}
+
+
